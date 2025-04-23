@@ -13,7 +13,7 @@
         margin: 10px;
         text-decoration: none;
     }
-    .navbar right.right.nav{
+    .navbar.right.nav{
         align-items: right;
         font-size: 20px;
         color: rgb(255,0,0);
@@ -25,6 +25,40 @@
         display: flex;
     }
     img{
-        height: 10cm;
-        width: 15cm;
+        height: 6cm;
+        width: 10cm;
     }
+ .contact{
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgb(0,0,0,0);
+    border-radius: 10px;
+    padding: 30px;
+    width: 60%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .h1{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 10px;
+ }
+ .form input,.from textarea{
+    width: 100%;
+    max-width: 400%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+ }
+ .buttom{
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 5px;
+    cursor: pointer;
+    transition: background;
+ }
