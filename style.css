@@ -112,3 +112,9 @@
   .footer a{
     text-decoration: none;
   }
+  .Project{
+    display: flex;
+  }
+.h2{
+    text-align: center;
+}
