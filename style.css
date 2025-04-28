@@ -12,6 +12,8 @@
         padding-right: 30px;
         margin: 10px;
         text-decoration: none;
+        color: aliceblue;
+        transition: all 0.3s;
     }
     .navbar.right.nav{
         align-items: right;
@@ -109,12 +111,35 @@
  border:20px;
  background-color: rgb(46, 209, 95);
   }
+  .footer p{
+    font-size: 30px;
+  }
   .footer a{
     text-decoration: none;
   }
   .Project{
     display: flex;
+    border: 40px;
+    justify-content: center;
   }
 .h2{
+    text-align: center;
+}
+.left{
+    padding: 10px;
+}
+.right{
+    padding: 10px;
+}
+.left img{
+    height: 200px;
+    width: 100%;
+}
+.right img{
+    height: 200px;
+    width: 100%;
+}
+.work{
+    padding: 50px;
     text-align: center;
 }
